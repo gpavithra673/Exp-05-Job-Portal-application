@@ -1,21 +1,21 @@
 # EXP 25 -  JOB PORTAL APPLICATION 
 
 ## AIM:
-To create a job portal application using react, springboot and sql.
+ ### To create a job portal application using react, springboot and sql.
 
 ## ALGORITHM:
 
-1) Create a springboot project.
-2) Add neccessary java files to the project.
-3) Connect it with a database.
-4) Now create the front end using react.
-5) Create required components in react project.
-6) Run the project.
+ ### 1) Create a springboot project.
+ ### 2) Add neccessary java files to the project.
+ ### 3) Connect it with a database.
+ ### 4) Now create the front end using react.
+ ### 5) Create required components in react project.
+ ### 6) Run the project.
 
 ## PROGRAM:
 
 ### SPRINGBOOT PROGRAM:
-
+```
 java
 
 Job.java
@@ -88,8 +88,9 @@ public class Job {
     }
 }
 
-
+```
 ### JobApplicantController.java
+```
 java
 package com.saveetha.jobApplicant.job;
 
@@ -126,11 +127,11 @@ public class JobApplicantController {
         jobService.removeJobApplicant(jobApplicantId);
     }
 }
-
+```
 ### REACT PROGRAM:
 
 ### App.js
-
+```
 java
 
 import React from "react"
@@ -165,9 +166,9 @@ function App() {
 export default App;
 
 
-
+```
 ### JobApplicantDirectoryComponent.js
-
+```
 java
 
 import React, { useEffect, useState } from 'react';
@@ -206,9 +207,9 @@ function JobDirectoryComponent() {
 
 export defaul JobDirectoryComponent;
 
-                                    
+```                                    
 ### JobRegistrationComponent.js
-
+```
 java
 
 import React, { useState } from 'react';
@@ -287,9 +288,9 @@ function JobRegistrationComponent() {
 
 export default JobRegistrationComponent;
 
-
+```
 ### JobDeletionComponent.js
-
+```
 java
 
 import React, { useState } from 'react';
@@ -337,7 +338,7 @@ function JobDeletionComponent() {
 };
 
 export default JobDeletionComponent;
-
+```
 
 ### OUTPUT:
 
@@ -347,5 +348,5 @@ export default JobDeletionComponent;
 
 
 
-### RESULT:
-Thus, a job portal application is developed successfully usinf react, springboot and sql.
+## RESULT:
+ ### Thus, a job portal application is developed successfully usinf react, springboot and sql.
